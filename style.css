@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image:url("/temp.jpg");
+    background-image:url("./temp.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
