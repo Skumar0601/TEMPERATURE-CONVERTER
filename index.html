@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temperature Converter" />
+    <meta name="keywords" content="converter, calculator, celsius, fahrenheit, kelvin" />
+    <meta name="author" content="Piotr Maliga" />
+    <title>Temperature Converter</title>
+    <main>Temperature Converter</main>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body background="/temp.jpg">
+    <header>
+        <label for="converter">Conversion of <span class="C">°C</span> to<span class="F">°F</span></label>
+    </header>
+
+    <div>
+        <input type="text" id="converter" placeholder="°C">
+    </div>
+
+    <p class="result"></p>
+
+    <div id="buttons">
+        <button class="convertbutton">Convert</button>
+        <button class="resetbutton">Reset</button>
+        <button class="changebutton">Change</button>
+    </div>
+</body>
+
+</html>
